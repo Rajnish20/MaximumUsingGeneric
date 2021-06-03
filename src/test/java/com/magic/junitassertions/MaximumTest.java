@@ -74,6 +74,8 @@ public class MaximumTest {
         Assertions.assertEquals(3.1f,max.testMaximum());
     }
 
+
+
     @Test
     public void givenInteger_ShouldReturnMaximum() {
         Integer maxValue = Maximum.maximumValue(2, 3, 4, 1, 10, 9, 8);
