@@ -1,0 +1,2 @@
+com/magic/generic/Maximum.java
+ com.magic.generic.Maximum
