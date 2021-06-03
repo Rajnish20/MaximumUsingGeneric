@@ -1,0 +1,2 @@
+com/magic/junitassertions/MaximumTest.java
+ com.magic.junitassertions.MaximumTest
