@@ -1,5 +1,9 @@
 package com.magic.generic;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class Maximum<E extends Comparable<E>> {
 
     E x;
@@ -25,5 +29,11 @@ public class Maximum<E extends Comparable<E>> {
         if (z.compareTo(max) > 0)
             max = z;
         return max;
+    }
+
+    @SafeVarargs
+    public static <E extends Comparable<E>> E maximumValue(E... values) {
+        List<E> sortedValues = Arrays.stream(values).sorted().collect(Collectors.toList());
+        return sortedValues.get(sortedValues.size() - 1);
     }
 }

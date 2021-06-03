@@ -74,6 +74,21 @@ public class MaximumTest {
         Assertions.assertEquals(3.1f,max.testMaximum());
     }
 
+    @Test
+    public void givenInteger_ShouldReturnMaximum() {
+        Integer maxValue = Maximum.maximumValue(2, 3, 4, 1, 10, 9, 8);
+        Assertions.assertEquals(10, maxValue);
+    }
 
+    @Test
+    public void givenFloat_ShouldReturnMaximum() {
+        Float maxValue = Maximum.maximumValue(1.1f, 2.1f, 10.1f, 8.9f, 4.5f);
+        Assertions.assertEquals(10.1f, maxValue);
+    }
 
+    @Test
+    public void givenStrings_ShouldReturnMaximum() {
+        String maxValue = Maximum.maximumValue("Daniel", "Michael", "Harry", "Peter", "John");
+        Assertions.assertEquals("Peter", maxValue);
+    }
 }
