@@ -59,4 +59,21 @@ public class MaximumTest {
         String max = Maximum.maximum("Banana", "Apple", "Peach");
         Assertions.assertEquals("Peach", max);
     }
+
+    @Test
+    public void givenThreeIntegersToClass_WithMaxAtFirstPlace_ShouldReturnMaximum()
+    {
+        Maximum max = new Maximum(3,2, 1);
+        Assertions.assertEquals(3,max.testMaximum());
+    }
+
+    @Test
+    public void givenThreeFloatToClass_WithMaxAtFirstPlace_ShouldReturnMaximum()
+    {
+        Maximum max = new Maximum(3.1f,2.1f, 1.1f);
+        Assertions.assertEquals(3.1f,max.testMaximum());
+    }
+
+
+
 }
