@@ -59,6 +59,4 @@ public class MaximumTest {
         String max = Maximum.maximum("Banana", "Apple", "Peach");
         Assertions.assertEquals("Peach", max);
     }
-
-
 }

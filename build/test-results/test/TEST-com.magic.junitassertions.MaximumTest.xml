@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.magic.junitassertions.MaximumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-03T10:51:28" hostname="DESKTOP-38KI29F" time="0.027">
+<testsuite name="com.magic.junitassertions.MaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-03T11:02:39" hostname="DESKTOP-38KI29F" time="0.063">
   <properties/>
-  <testcase name="givenThreeStrings_WithMaxAtThirdPlace_ShouldReturnMaximum()" classname="com.magic.junitassertions.MaximumTest" time="0.027"/>
+  <testcase name="givenThreeStrings_WithMaxAtFirstPlace_ShouldReturnMaximum()" classname="com.magic.junitassertions.MaximumTest" time="0.039"/>
+  <testcase name="givenThreeStrings_WithMaxAtThirdPlace_ShouldReturnMaximum()" classname="com.magic.junitassertions.MaximumTest" time="0.002"/>
+  <testcase name="givenThreeInteger_WithMaxAtSecondPlace_ShouldReturnMaximum()" classname="com.magic.junitassertions.MaximumTest" time="0.001"/>
+  <testcase name="givenThreeStrings_WithMaxAtSecondPlace_ShouldReturnMaximum()" classname="com.magic.junitassertions.MaximumTest" time="0.001"/>
+  <testcase name="givenThreeInteger_WithMaxAtFirstPlace_ShouldReturnMaximum()" classname="com.magic.junitassertions.MaximumTest" time="0.002"/>
+  <testcase name="givenThreeFloat_WithMaxAtFirstPlace_ShouldReturnMaximum()" classname="com.magic.junitassertions.MaximumTest" time="0.002"/>
+  <testcase name="givenThreeInteger_WithMaxAtThirdPlace_ShouldReturnMaximum()" classname="com.magic.junitassertions.MaximumTest" time="0.001"/>
+  <testcase name="givenThreeFloat_WithMaxAtThirdPlace_ShouldReturnMaximum()" classname="com.magic.junitassertions.MaximumTest" time="0.002"/>
+  <testcase name="givenThreeFloat_WithMaxAtSecondPlace_ShouldReturnMaximum()" classname="com.magic.junitassertions.MaximumTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
